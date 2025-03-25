@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
 import Container from "./Container";
-import { useRouter } from "next/navigation";
+
 import { FaArrowUp } from "react-icons/fa";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
-  const router = useRouter();
   return (
     <Container className="">
       {/* Text Section */}

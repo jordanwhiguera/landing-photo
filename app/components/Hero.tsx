@@ -14,13 +14,7 @@ const Hero: React.FC = () => {
       <div className="flex flex-col md:flex-row items-stretch md:space-x-4  pt-4 pb-8 md:py-12">
         {/* About Us Section */}
         <div className="bg-black rounded-3xl text-white p-4 flex flex-col justify-between md:w-1/3">
-          <h1 className="mb-4 lg:text-lg">
-            Open Home Media is a real estate photography company based in Port
-            St Lucie, FL. We proudly serve the following cities at no additional
-            charge: <u>Port Saint Lucie</u>, <u>Fort Pierce</u>,{" "}
-            <u>Vero Beach</u>, <u>Stuart</u>, <u>Palm City</u>,{" "}
-            <u>Jensen Beach</u>,and <u>Hobe Sound</u>.
-          </h1>
+          <h1 className="mb-4 lg:text-lg">test test test</h1>
           <button
             onClick={() =>
               window.open("https://openhomemedia.hd.pics/order", "_blank")

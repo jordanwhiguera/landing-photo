@@ -2,13 +2,8 @@
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
-import Button from "./Button"; // adjust path if needed
 
 const Photos: React.FC = () => {
-  const handleBookNowClick = () => {
-    window.location.href = "/booking"; // replace with your actual booking link if needed
-  };
-
   return (
     <Container>
       <div className=" ">

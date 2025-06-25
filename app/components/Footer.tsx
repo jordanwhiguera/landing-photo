@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { FaYoutube, FaTiktok, FaInstagram } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+
 import Container from "./Container";
 
 const Footer = () => {

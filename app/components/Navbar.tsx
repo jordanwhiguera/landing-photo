@@ -61,26 +61,34 @@ const Navbar: React.FC = () => {
             {/* <h1 className="text-5xl font-bold">Lumina Home Media</h1> */}
             <nav className="hidden md:flex space-x-4 hover:cursor-pointer">
               <a
-                className="bg-transparent hover:bg-[white] text-[#1e251f] font-bold py-2 px-4 border-2 border-black rounded-full "
-                onClick={() => handleNavigation("/")}
+                href="https://openhome.media/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
               >
                 Home
               </a>
               <a
+                href="https://openhome.media/#pricing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
-                onClick={(e) => scrollToSection(e, "pricing")}
               >
                 Pricing
               </a>
               <a
+                href="https://openhome.media/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
-                onClick={() => handleNavigation("/portfolio")}
               >
                 Portfolio
               </a>
               <a
+                href="https://openhome.media/contact"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-transparent hover:bg-[white] text-[#1e251f] font-semibold py-2 px-4 border-2 border-black rounded-full"
-                onClick={() => handleNavigation("/contact")}
               >
                 Contact
               </a>
@@ -128,26 +136,34 @@ const Navbar: React.FC = () => {
         />
         {/* Drawer Links */}
         <a
-          className="text-[#1e251f] mt-12 py-2 rounded hover:bg-[#f0ebe6] font-bold text-center "
-          onClick={() => handleNavigation("/")}
+          href="https://openhome.media/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
         >
           Home
         </a>
         <a
+          href="https://openhome.media/#pricing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
-          onClick={(e) => scrollToSection(e, "pricing")}
         >
           Pricing
         </a>
         <a
+          href="https://openhome.media/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
-          onClick={() => handleNavigation("/portfolio")}
         >
           Portfolio
         </a>
         <a
+          href="https://openhome.media/contact"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-[#1e251f] py-2 rounded hover:bg-[#f0ebe6] font-bold text-center"
-          onClick={() => handleNavigation("/contact")}
         >
           Contact
         </a>

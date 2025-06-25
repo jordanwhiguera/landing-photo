@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
                   window.open("https://openhomemedia.hd.pics/order", "_blank")
                 }
               >
-                Book Online
+                Book Now
               </a>
             </nav>
             {/* Hamburger Icon */}
@@ -157,7 +157,7 @@ const Navbar: React.FC = () => {
             window.open("https://openhomemedia.hd.pics/order", "_blank")
           }
         >
-          Book Online
+          Book Now
         </a>
       </div>
       {/* Overlay to close drawer */}

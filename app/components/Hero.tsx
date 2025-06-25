@@ -5,7 +5,7 @@ import Container from "./Container";
 
 const Hero: React.FC = () => {
   return (
-    <Container className="pt-12 pb-12">
+    <Container className="pt-12 pb-12 bg-[#e3d6c3;]">
       {/* Main Split Section */}
       <div className=" flex flex-col lg:flex-row items-center gap-12 ">
         {/* Text & CTA Section */}

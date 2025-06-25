@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Photos: React.FC = () => {
   return (
-    <Container>
+    <Container className="bg-[#e3d6c3;]">
       <div className=" ">
         {/* Photos Section */}
         {/* Call/Text CTA Section */}

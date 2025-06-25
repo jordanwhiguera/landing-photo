@@ -5,7 +5,7 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <Container className=" my-12 lg:my-16 bg-footer flex flex-col md:flex-row justify-between items-center text-black">
+    <Container className=" my-12 lg:my-16 bg-footer flex flex-col md:flex-row justify-between items-center text-black bg-[]#e3d6c3;">
       <div className="">
         <span className=" font-semibold">
           Copyright © 2024 - Open Home Media LLC

@@ -14,19 +14,6 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
-  const scrollToSection = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    sectionId: string
-  ) => {
-    setIsDrawerOpen(false);
-    const section = document.getElementById(sectionId);
-    if (window.location.pathname === "/" && section) {
-      e.preventDefault(); // Need this for scroll effect to work
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else {
-      router.push("/#" + sectionId);
-    }
-  };
 
   React.useEffect(() => {
     const handleResize = () => {
